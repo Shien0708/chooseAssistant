@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		641CC7E527EECCCC0026EEF3 /* PopOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641CC7E427EECCCC0026EEF3 /* PopOutViewController.swift */; };
+		64315A0E27E84684004D7F81 /* SpinWheelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64315A0D27E84684004D7F81 /* SpinWheelViewController.swift */; };
 		64722EB627E350F300B2BCDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64722EB527E350F300B2BCDE /* AppDelegate.swift */; };
 		64722EB827E350F300B2BCDE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64722EB727E350F300B2BCDE /* SceneDelegate.swift */; };
 		64722EBA27E350F300B2BCDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64722EB927E350F300B2BCDE /* ViewController.swift */; };
 		64722EBD27E350F300B2BCDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64722EBB27E350F300B2BCDE /* Main.storyboard */; };
 		64722EBF27E350F400B2BCDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64722EBE27E350F400B2BCDE /* Assets.xcassets */; };
 		64722EC227E350F400B2BCDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64722EC027E350F400B2BCDE /* LaunchScreen.storyboard */; };
+		64722ECA27E3676A00B2BCDE /* PhotoEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64722EC927E3676A00B2BCDE /* PhotoEditorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		641CC7E427EECCCC0026EEF3 /* PopOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOutViewController.swift; sourceTree = "<group>"; };
+		64315A0D27E84684004D7F81 /* SpinWheelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinWheelViewController.swift; sourceTree = "<group>"; };
 		64722EB227E350F300B2BCDE /* chooseAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chooseAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64722EB527E350F300B2BCDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64722EB727E350F300B2BCDE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		64722EBE27E350F400B2BCDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64722EC127E350F400B2BCDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64722EC327E350F400B2BCDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64722EC927E3676A00B2BCDE /* PhotoEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoEditorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			children = (
 				64722EB527E350F300B2BCDE /* AppDelegate.swift */,
 				64722EB727E350F300B2BCDE /* SceneDelegate.swift */,
+				641CC7E427EECCCC0026EEF3 /* PopOutViewController.swift */,
+				64315A0D27E84684004D7F81 /* SpinWheelViewController.swift */,
+				64722EC927E3676A00B2BCDE /* PhotoEditorViewController.swift */,
 				64722EB927E350F300B2BCDE /* ViewController.swift */,
 				64722EBB27E350F300B2BCDE /* Main.storyboard */,
 				64722EBE27E350F400B2BCDE /* Assets.xcassets */,
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				641CC7E527EECCCC0026EEF3 /* PopOutViewController.swift in Sources */,
 				64722EBA27E350F300B2BCDE /* ViewController.swift in Sources */,
 				64722EB627E350F300B2BCDE /* AppDelegate.swift in Sources */,
+				64722ECA27E3676A00B2BCDE /* PhotoEditorViewController.swift in Sources */,
 				64722EB827E350F300B2BCDE /* SceneDelegate.swift in Sources */,
+				64315A0E27E84684004D7F81 /* SpinWheelViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
